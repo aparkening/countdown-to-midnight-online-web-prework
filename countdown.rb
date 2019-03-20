@@ -13,5 +13,11 @@ end
 def countdown_with_sleep(number)
   
   sleep(num_secs)
+  
+  range = number..1
+  for counter in range  
+    puts phrase
+  end
+  
 
 end
