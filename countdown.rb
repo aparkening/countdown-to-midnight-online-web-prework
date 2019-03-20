@@ -13,7 +13,7 @@ end
 def countdown_with_sleep(number)
   range = number..1
   for counter in range  
-    sleep(1)
+    sleep 1
     puts "#{counter} SECOND(S)!"
   end
   return "HAPPY NEW YEAR!
