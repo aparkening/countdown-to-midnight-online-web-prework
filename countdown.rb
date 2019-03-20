@@ -11,10 +11,10 @@ end
 
 # Output countdown at the rate of actual seconds
 def countdown_with_sleep(number)
-  range = number..1
-  for counter in range  
+  while number > 0
+    puts "#{number} SECOND(S)!"
+    number -= 1
     sleep 1
-    puts "#{counter} SECOND(S)!"
   end
   return "HAPPY NEW YEAR!
 end
